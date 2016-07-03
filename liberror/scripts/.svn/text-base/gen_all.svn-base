@@ -1,4 +1,0 @@
-#!/bin/bash
-
-$PWD/scripts/gen_error_funcs > src/error.c || exit 1
-$PWD/scripts/gen_headers src/error.c > src/error.h || exit 1

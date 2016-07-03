@@ -1,7 +1,0 @@
-#!/bin/bash
-
-cat $PWD/src/error.h.template.h || exit 1
-
-grep "^err_" $@  | sed -e '/err_doit/d' | sed -e '/err_ret/d' | sed -e '/err_sys/d' | sed -e '/err_dump/d' | sed -e '/err_msg/d' | sed -e '/err_quit/d' | sed -e 's/err_/void err_/' | sed -e 's/err)/err);/' || exit 1
-
-echo -e "\n#endif"
