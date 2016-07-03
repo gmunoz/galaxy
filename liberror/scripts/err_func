@@ -1,0 +1,122 @@
+#!/usr/bin/ruby
+
+WRAP_LENGTH = 65      # How long the maximum line should be.
+PADDING = "       "   # Must be at least an empty string "".
+
+def wrap(str, max_size, padding)
+	all = []
+	line = padding
+	for l in str.split
+		if (line + l).length >= max_size
+			all.push(line)
+			line = padding
+		end
+		line += line == padding ? l : ' ' + l
+	end
+	all.push(line).join("\\n")
+end
+
+# Needs to handle:
+#  EACCES
+#  EAGAIN or EWOULDBLOCK
+# May come across multiple definitions of a single errno. Should parse
+# them all and put them in the same string, separated by an empty line.
+def parse(filename)
+	comment = Regexp.new('^\.\\\"')
+	tp_cmd = Regexp.new('^\.TP')
+	troff_cmd = Regexp.new('^\.\w+ (.*)')
+	alias_reg = Regexp.new('^\.so (.*)$')
+	sh = Regexp.new('^.SH')
+	sh_errors = Regexp.new('^\.SH ERRORS$')
+	errno = Regexp.new('^\.BR? (E2BIG|EACCES|EADDRINUSE|EADDRNOTAVAIL|EAFNOSUPPORT|EAGAIN|EALREADY|EBADF|EBADMSG|EBUSY|ECANCELED|ECHILD|ECONNABORTED|ECONNREFUSED|ECONNRESET|EDEADLK|EDESTADDRREQ|EDOM|EDQUOT|EEXIST|EFAULT|EFBIG|EHOSTUNREACH|EIDRM|EILSEQ|EINPROGRESS|EINTR|EINVAL|EIO|EISCONN|EISDIR|ELOOP|EMFILE|EMLINK|EMSGSIZE|EMULTIHOP|ENAMETOOLONG|ENETDOWN|ENETRESET|ENETUNREACH|ENFILE|ENOBUFS|ENODATA|ENODEV|ENOENT|ENOEXEC|ENOLCK|ENOLINK|ENOMEM|ENOMSG|ENOPROTOOPT|ENOSPC|ENOSR|ENOSTR|ENOSYS|ENOTCONN|ENOTDIR|ENOTEMPTY|ENOTSOCK|ENOTSUP|ENOTTY|ENXIO|EOPNOTSUPP|EOVERFLOW|EPERM|EPIPE|EPROTO|EPROTONOSUPPORT|EPROTOTYPE|ERANGE|EROFS|ESPIPE|ESRCH|ESTALE|ETIME|ETIMEDOUT|ETXTBSY|EWOULDBLOCK|EXDEV|ELIBBAD)')
+
+	error_section = false
+	msgs = Hash.new
+
+	File.open(filename) { |file|
+		while line = file.gets
+			# Parse new path if this file is just an alias.
+			return File::dirname(filename) + "/../" + $1 if line =~ alias_reg
+
+			# Stopping condition: Finished parsing errors section.
+			if line =~ sh && error_section
+				break;
+			end
+
+			# Search for '.SH ERRORS': Start of errors section.
+			if line =~ sh_errors
+				error_section = true
+			end
+
+			# Found an errno and its body of error message text--parse it.
+			if error_section and line =~ errno
+				err = $1
+				errline = msg = ""
+				while errline = file.gets and errline !~ errno and errline !~ tp_cmd and errline !~ sh
+					if errline =~ comment
+						next
+					end
+					if errline =~ troff_cmd
+						msg += $1.strip + " "
+					else
+						msg += errline.strip + " "
+					end
+				end
+				msg.gsub!(/[^\\]"/, ' ') # Strange quoting character.
+				msg.gsub!(/\\fB/, '') # Some type of highlight escape sequence.
+				msg.gsub!(/\\fR/, '') # Another highlight escape sequence.
+				msg.gsub!(/\\/, '')   # General escape sequence we don't need.
+				if !msgs[err]
+					msgs[err] = Array.new
+				end
+				msgs[err].push(msg)
+
+				file.seek(-errline.length, IO::SEEK_CUR)
+			end
+		end
+	}
+	return msgs
+end
+
+argfile = ARGV[0]
+
+filename = File::basename(argfile)
+filename =~ /^(.*)\.([0-9])?.*$/
+function = $1
+mannum = $2
+type = ""
+if mannum == "2"
+	type = "system call"
+elsif mannum == "3"
+	type = "function call"
+else
+	type = "function"
+end
+
+argfile = parse(ARGV[0])
+
+msgs = argfile
+if argfile.class == String
+	msgs = parse(argfile)
+end
+
+STDOUT.puts "\nvoid\nerr_#{function}(int err)\n{"
+STDOUT.puts "\terr_msg(\"error: The #{function}(#{mannum}) #{type} failed.\\n\");"
+STDOUT.puts "\tswitch (err) {"
+msgs.each { |key,val|
+	STDOUT.puts "\t\tcase #{key}:"
+	multiline = false
+	val.each { |msg|
+		#puts " + #{wrap(msg, 65)}"
+		if multiline
+			STDOUT.puts "\t\t\terr_msg(\"#{PADDING}         OR\\n\");"
+		end
+		STDOUT.puts "\t\t\terr_msg(\"#{wrap(msg, WRAP_LENGTH, PADDING)}\\n\");"
+		multiline = true
+	}
+	STDOUT.puts "\t\t\tbreak;"
+}
+STDOUT.puts "\t\tdefault:"
+STDOUT.puts "\t\t\terr_msg(\"#{PADDING}Unknown errno %d for the #{function}(#{mannum}) #{type}.\\n\", err);"
+STDOUT.puts "\t\t\tbreak;"
+STDOUT.puts "\t}\n}"

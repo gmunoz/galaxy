@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-08-31T19:27:33.615717Z"
+   url="http://xusia.net/svn/galaxy/trunk/doc"
+   last-author="gabriel"
+   kind="dir"
+   uuid="119c9aae-a6ff-0310-b9a6-cf8e478f2596"
+   repos="http://xusia.net/svn/galaxy"
+   revision="62"/>
+</wc-entries>

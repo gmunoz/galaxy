@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2005-09-01T19:54:57.928401Z"
+   url="http://xusia.net/svn/galaxy/trunk/inotify"
+   last-author="gabriel"
+   kind="dir"
+   uuid="119c9aae-a6ff-0310-b9a6-cf8e478f2596"
+   repos="http://xusia.net/svn/galaxy"
+   revision="62"/>
+<entry
+   committed-rev="3"
+   name="inotify-syscalls.h"
+   text-time="2005-09-14T03:07:06.000000Z"
+   committed-date="2005-09-01T19:54:57.928401Z"
+   checksum="0bb10aa63d6930cf1351ccafb48ea365"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="3"
+   name="inotify.h"
+   text-time="2005-09-14T03:07:06.000000Z"
+   committed-date="2005-09-01T19:54:57.928401Z"
+   checksum="f2977eafbc180f8b95a8473587d6e500"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+</wc-entries>

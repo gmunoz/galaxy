@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="58"
+   name=""
+   committed-date="2006-03-26T16:26:15.200753Z"
+   url="http://xusia.net/svn/galaxy/trunk/galaxyd"
+   last-author="gabriel"
+   kind="dir"
+   uuid="119c9aae-a6ff-0310-b9a6-cf8e478f2596"
+   repos="http://xusia.net/svn/galaxy"
+   revision="62"/>
+<entry
+   committed-rev="57"
+   name="inotify_utils.c"
+   text-time="2006-03-25T02:49:10.000000Z"
+   committed-date="2006-03-25T03:15:30.710539Z"
+   checksum="d9956c875bf569639d0466773480eb3f"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="48"
+   name="Makefile.in"
+   text-time="2006-03-24T02:41:33.000000Z"
+   committed-date="2006-03-20T04:30:26.196415Z"
+   checksum="ec9d3c876c2934a449c378bd74e2d6f0"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="40"
+   name="server_thread.h"
+   text-time="2005-09-15T03:00:51.000000Z"
+   committed-date="2005-09-15T03:25:39.595211Z"
+   checksum="b9709c1a11977bc0b2a29fa8221a8a91"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="57"
+   name="signal_thread.c"
+   text-time="2006-03-25T02:53:41.000000Z"
+   committed-date="2006-03-25T03:15:30.710539Z"
+   checksum="d64febb60d2d40c6115905232bbc19da"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="57"
+   name="iwatch_thread.c"
+   text-time="2006-03-25T02:49:26.000000Z"
+   committed-date="2006-03-25T03:15:30.710539Z"
+   checksum="0899d0407e596e61e4018e8a0f85edc4"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="46"
+   name="inotify_utils.h"
+   text-time="2006-01-29T17:37:28.000000Z"
+   committed-date="2006-01-29T23:42:59.107809Z"
+   checksum="23ddfb1739a0babe6889f118b5f4bd9c"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="57"
+   name="watch.c"
+   text-time="2006-03-25T02:55:09.000000Z"
+   committed-date="2006-03-25T03:15:30.710539Z"
+   checksum="fb45e0046ff51171b8d6f3a2affe9970"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="40"
+   name="thread.c"
+   text-time="2005-09-15T03:01:08.000000Z"
+   committed-date="2005-09-15T03:25:39.595211Z"
+   checksum="baf564be870bfda447dfc83d99f67b99"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="40"
+   name="signal_thread.h"
+   text-time="2005-09-15T03:01:03.000000Z"
+   committed-date="2005-09-15T03:25:39.595211Z"
+   checksum="09c5a903e320f81f13a3610d062fdacf"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="40"
+   name="list.c"
+   text-time="2005-09-15T03:23:54.000000Z"
+   committed-date="2005-09-15T03:25:39.595211Z"
+   checksum="b3c9f5b9fe7785e723baffb1ed43528f"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="40"
+   name="iwatch_thread.h"
+   text-time="2005-09-15T03:00:17.000000Z"
+   committed-date="2005-09-15T03:25:39.595211Z"
+   checksum="8214f7bd311783e33349ee80a89eea23"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="50"
+   name="watch.h"
+   text-time="2006-03-19T21:09:29.000000Z"
+   committed-date="2006-03-22T03:02:21.707514Z"
+   checksum="67d7a82f859985d1dbd091860d190cf4"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="57"
+   name="thread.h"
+   text-time="2006-03-25T02:57:37.000000Z"
+   committed-date="2006-03-25T03:15:30.710539Z"
+   checksum="bde4971925c2f45bc112a4ab5bdc0f18"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="57"
+   name="ihandler_thread.c"
+   text-time="2006-03-25T02:48:00.000000Z"
+   committed-date="2006-03-25T03:15:30.710539Z"
+   checksum="d189cb0ed69a713fa990ee399c98dd45"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="57"
+   name="notifier.c"
+   text-time="2006-03-25T02:56:18.000000Z"
+   committed-date="2006-03-25T03:15:30.710539Z"
+   checksum="b6101ec289119c348d435b1edab43204"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="40"
+   name="list.h"
+   text-time="2005-09-15T03:24:22.000000Z"
+   committed-date="2005-09-15T03:25:39.595211Z"
+   checksum="abaec83d7f0260543b476760c40ae016"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="40"
+   name="ihandler_thread.h"
+   text-time="2005-09-15T02:59:54.000000Z"
+   committed-date="2005-09-15T03:25:39.595211Z"
+   checksum="876f2791481761650201e81268e40ca5"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="50"
+   name="notifier.h"
+   text-time="2006-03-19T20:43:40.000000Z"
+   committed-date="2006-03-22T03:02:21.707514Z"
+   checksum="2791b7eadef2e0283493779e8097c067"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="40"
+   name="event_queue.c"
+   text-time="2005-09-15T03:07:52.000000Z"
+   committed-date="2005-09-15T03:25:39.595211Z"
+   checksum="ca3aefced22e57a575d724c05038f5f9"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="58"
+   name="crawler_thread.c"
+   text-time="2006-03-25T21:28:06.000000Z"
+   committed-date="2006-03-26T16:26:15.200753Z"
+   checksum="fd732d57c5391f76a9abe270d0ed11d0"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="38"
+   name="Makefile.am"
+   text-time="2006-03-24T02:28:02.000000Z"
+   committed-date="2005-09-14T16:52:41.744884Z"
+   checksum="2bf9a528f56037f157dda6e1d163a5a6"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="58"
+   name="galaxyd.c"
+   text-time="2006-03-25T21:24:22.000000Z"
+   committed-date="2006-03-26T16:26:15.200753Z"
+   checksum="2ae21fcec8ab32ddf5f6b10dcba2e843"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="40"
+   name="event_queue.h"
+   text-time="2005-09-15T03:07:35.000000Z"
+   committed-date="2005-09-15T03:25:39.595211Z"
+   checksum="e9db36800d80079f6c76120bf8d01bcb"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="58"
+   name="crawler_thread.h"
+   text-time="2006-03-25T21:11:35.000000Z"
+   committed-date="2006-03-26T16:26:15.200753Z"
+   checksum="6567823bd364bb835195f667506118aa"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="57"
+   name="server_thread.c"
+   text-time="2006-03-25T02:53:28.000000Z"
+   committed-date="2006-03-25T03:15:30.710539Z"
+   checksum="6d7ccf31b83a2de4f8c212970c940758"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+</wc-entries>

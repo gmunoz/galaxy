@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="36"
+   name=""
+   committed-date="2005-09-14T04:07:08.666855Z"
+   url="http://xusia.net/svn/galaxy/trunk/liberror/m4"
+   last-author="gabriel"
+   kind="dir"
+   uuid="119c9aae-a6ff-0310-b9a6-cf8e478f2596"
+   repos="http://xusia.net/svn/galaxy"
+   revision="62"/>
+<entry
+   committed-rev="36"
+   name="ac_func_snprintf.m4"
+   text-time="2005-09-14T04:00:12.000000Z"
+   committed-date="2005-09-14T04:07:08.666855Z"
+   checksum="d86db60e77b09405f7cd25edbde38f5d"
+   last-author="gabriel"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,3 @@
+plog-plog.o plog-plog.o: plog.c plog.h
+
+plog.h:

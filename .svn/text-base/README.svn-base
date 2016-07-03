@@ -1,0 +1,11 @@
+#include <assert.h>
+#define DEBUG_CLIENT_REQUEST           1
+#define DEBUG_SERVER_THREAD            1
+#define DEBUG_HANDLE_INTERNAL_ACTIONS  1
+#define DEBUG_IHANDLER_THREAD          1
+#define DEBUG_READ_EVENTS              1
+#define DEBUG_SIGNAL_HANDLER           1
+#define DEBUG_SEND_NOTIFICATIONS       1
+#define DEBUG_FIND_MATCHING_EVENTS     1
+#define DEBUG_PRINT_SOCKET             1
+#define DEBUG_GALAXY_CONNECT           1

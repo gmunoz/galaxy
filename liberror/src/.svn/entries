@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="59"
+   name=""
+   committed-date="2006-03-26T16:27:48.131512Z"
+   url="http://xusia.net/svn/galaxy/trunk/liberror/src"
+   last-author="gabriel"
+   kind="dir"
+   uuid="119c9aae-a6ff-0310-b9a6-cf8e478f2596"
+   repos="http://xusia.net/svn/galaxy"
+   revision="62"/>
+<entry
+   committed-rev="55"
+   name="error.h"
+   text-time="2006-03-25T03:07:43.000000Z"
+   committed-date="2006-03-25T02:43:38.526283Z"
+   checksum="0ed7668d653793a365603c54ae816470"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:03.000000Z"/>
+<entry
+   committed-rev="54"
+   name="error.h.template.h"
+   text-time="2006-03-24T23:51:48.000000Z"
+   committed-date="2006-03-24T23:55:29.297541Z"
+   checksum="9626bc6bcd6ca8c48e6446078be7d571"
+   last-author="gabriel"
+   kind="file"/>
+<entry
+   committed-rev="48"
+   name="Makefile.in"
+   text-time="2006-03-24T02:41:31.000000Z"
+   committed-date="2006-03-20T04:30:26.196415Z"
+   checksum="71bb198d74e943654849918266ddfbef"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:03.000000Z"/>
+<entry
+   committed-rev="55"
+   name="error.c.template.c"
+   text-time="2006-03-25T02:36:33.000000Z"
+   committed-date="2006-03-25T02:43:38.526283Z"
+   checksum="f685fa2aa5936d1a014b683c4a12a043"
+   last-author="gabriel"
+   kind="file"/>
+<entry
+   committed-rev="25"
+   name="Makefile.am"
+   text-time="2005-09-14T03:07:03.000000Z"
+   committed-date="2005-09-13T00:49:24.916237Z"
+   checksum="8283c71eb30920cf5635535abb0560eb"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:03.000000Z"/>
+<entry
+   committed-rev="59"
+   name="error.c"
+   text-time="2006-03-25T04:31:08.000000Z"
+   committed-date="2006-03-26T16:27:48.131512Z"
+   checksum="794b1c94b245366adaacc39e817853fc"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:03.000000Z"/>
+</wc-entries>

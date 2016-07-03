@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="62"
+   name=""
+   committed-date="2006-03-29T00:41:34.157346Z"
+   url="http://xusia.net/svn/galaxy/trunk"
+   last-author="gabriel"
+   kind="dir"
+   uuid="119c9aae-a6ff-0310-b9a6-cf8e478f2596"
+   repos="http://xusia.net/svn/galaxy"
+   revision="62"/>
+<entry
+   name="m4"
+   kind="dir"/>
+<entry
+   name="liberror"
+   kind="dir"/>
+<entry
+   committed-rev="48"
+   name="configure"
+   text-time="2006-03-19T21:04:59.000000Z"
+   committed-date="2006-03-20T04:30:26.196415Z"
+   checksum="92f719b9fa05d6871f874d2d5eda6e2f"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   name="inotify"
+   kind="dir"/>
+<entry
+   committed-rev="48"
+   name="Makefile.in"
+   text-time="2006-03-19T21:04:59.000000Z"
+   committed-date="2006-03-20T04:30:26.196415Z"
+   checksum="85ad7666d25c046419c62143cf6392ca"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="27"
+   name="AUTHORS"
+   text-time="2005-09-14T03:07:07.000000Z"
+   committed-date="2005-09-13T20:38:43.612653Z"
+   checksum="20ba9ea85098d2fa61587b33d5ca428f"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   name="galaxy"
+   kind="dir"/>
+<entry
+   committed-rev="30"
+   name="depcomp"
+   text-time="2005-09-14T03:07:07.000000Z"
+   committed-date="2005-09-14T01:46:21.397995Z"
+   checksum="c08b3e7ad0d872924555022f0cc4f574"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="27"
+   name="ChangeLog"
+   text-time="2005-09-14T03:07:07.000000Z"
+   committed-date="2005-09-13T20:38:43.612653Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="30"
+   name="compile"
+   text-time="2005-09-14T03:07:07.000000Z"
+   committed-date="2005-09-14T01:46:21.397995Z"
+   checksum="55f398e91c46c4714d2e90ecca473430"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   name="galaxyd"
+   kind="dir"/>
+<entry
+   committed-rev="48"
+   name="config.guess"
+   text-time="2006-03-04T23:03:28.000000Z"
+   committed-date="2006-03-20T04:30:26.196415Z"
+   checksum="a585360b4c43d389c6a248190c555477"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="48"
+   name="config.sub"
+   text-time="2006-03-04T23:03:28.000000Z"
+   committed-date="2006-03-20T04:30:26.196415Z"
+   checksum="c60fae95d69ea985f09ec557fc9520fb"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="57"
+   name="README"
+   text-time="2006-03-24T23:47:17.000000Z"
+   committed-date="2006-03-25T03:15:30.710539Z"
+   checksum="02643a700fd9c19d63e6f0ecfed902d8"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:06.000000Z"/>
+<entry
+   committed-rev="48"
+   name="ltmain.sh"
+   text-time="2006-03-04T23:03:28.000000Z"
+   committed-date="2006-03-20T04:30:26.196415Z"
+   checksum="70cf70a682442a6f827513ae73c18622"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:07.000000Z"/>
+<entry
+   committed-rev="30"
+   name="config.h.in"
+   text-time="2005-09-14T16:51:30.000000Z"
+   committed-date="2005-09-14T01:46:21.397995Z"
+   checksum="9fdb8c442e94d5e56a728dfd95a09e09"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:07.000000Z"/>
+<entry
+   committed-rev="38"
+   name="configure.ac"
+   text-time="2005-09-14T16:50:01.000000Z"
+   committed-date="2005-09-14T16:52:41.744884Z"
+   checksum="47f4dd0d83c0e895ce8a2db19855070d"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:07.000000Z"/>
+<entry
+   name="doc"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="INSTALL"
+   text-time="2005-09-14T03:07:07.000000Z"
+   committed-date="2005-08-31T19:27:33.615717Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:07.000000Z"/>
+<entry
+   committed-rev="27"
+   name="COPYING"
+   text-time="2005-09-14T03:07:07.000000Z"
+   committed-date="2005-09-13T20:38:43.612653Z"
+   checksum="eb723b61539feef013de476e68b5c50a"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:07.000000Z"/>
+<entry
+   committed-rev="32"
+   name="Makefile.am"
+   text-time="2005-09-14T03:07:07.000000Z"
+   committed-date="2005-09-14T02:50:06.674477Z"
+   checksum="92a74c5974b0eac973707a5ab1b2b8f0"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:07.000000Z"/>
+<entry
+   committed-rev="30"
+   name="missing"
+   text-time="2005-09-14T03:07:07.000000Z"
+   committed-date="2005-09-14T01:46:21.397995Z"
+   checksum="86e22d1144a7ebebe241f02b9a3bef60"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:07.000000Z"/>
+<entry
+   name="libgalaxy"
+   kind="dir"/>
+<entry
+   committed-rev="27"
+   name="NEWS"
+   text-time="2005-09-14T03:07:07.000000Z"
+   committed-date="2005-09-13T20:38:43.612653Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:07.000000Z"/>
+<entry
+   committed-rev="31"
+   name="bootstrap"
+   text-time="2005-09-14T03:07:07.000000Z"
+   committed-date="2005-09-14T02:40:06.119782Z"
+   checksum="e97c21f9095d755fc6f2e03528fd7628"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:07.000000Z"/>
+<entry
+   committed-rev="48"
+   name="aclocal.m4"
+   text-time="2006-03-19T21:04:57.000000Z"
+   committed-date="2006-03-20T04:30:26.196415Z"
+   checksum="0a9381617cf7643a07a31025c09adf46"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:07.000000Z"/>
+<entry
+   committed-rev="30"
+   name="install-sh"
+   text-time="2005-09-14T03:07:07.000000Z"
+   committed-date="2005-09-14T01:46:21.397995Z"
+   checksum="6b5362c8cc3aeec08dd77f5c6a6a4413"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:07.000000Z"/>
+</wc-entries>

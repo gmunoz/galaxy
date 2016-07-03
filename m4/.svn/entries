@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="27"
+   name=""
+   committed-date="2005-09-13T20:38:43.612653Z"
+   url="http://xusia.net/svn/galaxy/trunk/m4"
+   last-author="gabriel"
+   kind="dir"
+   uuid="119c9aae-a6ff-0310-b9a6-cf8e478f2596"
+   repos="http://xusia.net/svn/galaxy"
+   revision="62"/>
+<entry
+   committed-rev="27"
+   name="pkg.m4"
+   text-time="2005-09-14T03:07:05.000000Z"
+   committed-date="2005-09-13T20:38:43.612653Z"
+   checksum="8bc9c6be20df8421c1a687421fbfde85"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:05.000000Z"/>
+<entry
+   committed-rev="27"
+   name="pc.m4"
+   text-time="2005-09-14T03:07:05.000000Z"
+   committed-date="2005-09-13T20:38:43.612653Z"
+   checksum="5567529c415d4146f04bb8354d765839"
+   last-author="gabriel"
+   kind="file"
+   prop-time="2005-09-14T03:07:05.000000Z"/>
+</wc-entries>

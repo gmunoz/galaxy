@@ -1,0 +1,6 @@
+Handle `.PP' section in the errors section of a man page. Looks like
+they should be ignored when encountered. The content it refers to won't
+be for an errno.
+
+Handle `fI' and 'fP' tags. Can be found in ENOTDIR case for
+err_opendir().

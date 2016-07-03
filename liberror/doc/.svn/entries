@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="21"
+   name=""
+   committed-date="2005-09-12T18:32:24.543451Z"
+   url="http://xusia.net/svn/galaxy/trunk/liberror/doc"
+   last-author="gabriel"
+   kind="dir"
+   uuid="119c9aae-a6ff-0310-b9a6-cf8e478f2596"
+   repos="http://xusia.net/svn/galaxy"
+   revision="62"/>
+</wc-entries>
